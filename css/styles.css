@@ -35,7 +35,8 @@ body {
 
 .logo:hover,
 .logo:focus {
-    color: var(--title-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);
 }
 
 .nav-list,
@@ -68,12 +69,14 @@ body {
 .call-us:focus,
 .mail-to-portfolio:hover,
 .mail-to-portfolio:focus {
-    color: var(--acent-color);
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);;
 }
 
 .mail-to:hover,
 .mail-to:focus {
-    color: var(--title-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);;
 }
 
 .hero,
@@ -157,6 +160,13 @@ body {
     line-height: 1.71;
 }
 
+.adress:hover,
+.adress:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);
+    cursor: pointer;
+}
+
 .contact-us {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
@@ -166,7 +176,8 @@ body {
 
 .contact-us:hover,
 .contact-us:focus {
-    color: var(--acent-color);
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);
 }
 
 .portfolio-filter {
@@ -177,17 +188,19 @@ body {
     line-height: 1.85;
     cursor: pointer;
 }
+
+.portfolio-filter:hover,
+.portfolio-filter:focus {
+    text-decoration: underline;
+    text-decoration-color: var(--acent-color);
+}
+
 .all {
     color: #FFFFFF;
     background-color: var(--acent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-}
-
-.portfolio-order:hover,
-.portfolio-order:focus {
-
 }
 
 .portfolio-title {
