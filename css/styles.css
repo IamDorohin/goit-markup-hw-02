@@ -50,10 +50,6 @@ body {
     text-decoration: none;
 }
 
-.current {
-    color: var(--acent-color);
-} 
-
 .call-us,
 .mail-to-portfolio {
     color: var(--primary-text-color);
@@ -69,14 +65,16 @@ body {
 .call-us:focus,
 .mail-to-portfolio:hover,
 .mail-to-portfolio:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);;
+    color: var(--acent-color);
+}
+
+.current {
+    color: var(--acent-color);
 }
 
 .mail-to:hover,
 .mail-to:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);;
+    color: var(--title-text-color);
 }
 
 .hero,
@@ -160,13 +158,6 @@ body {
     line-height: 1.71;
 }
 
-.adress:hover,
-.adress:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);
-    cursor: pointer;
-}
-
 .contact-us {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
@@ -176,8 +167,7 @@ body {
 
 .contact-us:hover,
 .contact-us:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);
+    color: var(--acent-color);
 }
 
 .portfolio-filter {
@@ -191,8 +181,7 @@ body {
 
 .portfolio-filter:hover,
 .portfolio-filter:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);
+    color: var(--acent-color);
 }
 
 .all {
