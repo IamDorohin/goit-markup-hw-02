@@ -3,25 +3,18 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --acent-color: #2196F3;
-    --primary-background-color: #E5E5E5;
     --hero-and-footer-background-color: #2F303A;
 }
 body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     letter-spacing: 0.03em;
-    font-weight: 400;
     font-size: 14px;
 }
 
 .list {
     list-style: none;
     text-decoration: none;
-}
-
-.nav {
-    background-color: #ffffff;
 }
 
 .logo {
@@ -33,15 +26,17 @@ body {
     line-height: 1.19;
 }
 
+.logo-color 
+{color: #000000;
+}
+
 .logo:hover,
 .logo:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--acent-color);
+    background-color: var(--hero-and-footer-background-color);
 }
 
 .nav-list,
-.call-us,
-.mail-to,
+.contacts,
 .mail-to-portfolio {
     color: #212121;
     font-weight: 500;
@@ -50,21 +45,14 @@ body {
     text-decoration: none;
 }
 
-.call-us,
-.mail-to-portfolio {
+.contacts {
     color: var(--primary-text-color);
-}
-
-.mail-to {
-    color: var(--acent-color);
 }
 
 .nav-list:hover,
 .nav-list:focus,
-.call-us:hover,
-.call-us:focus,
-.mail-to-portfolio:hover,
-.mail-to-portfolio:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--acent-color);
 }
 
@@ -72,14 +60,9 @@ body {
     color: var(--acent-color);
 }
 
-.mail-to:hover,
-.mail-to:focus {
-    color: var(--title-text-color);
-}
-
-.hero,
-.footer {
+.hero {
     background-color: var(--hero-and-footer-background-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -100,9 +83,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
@@ -121,11 +101,6 @@ body {
     text-align: center;
 }
 
-.advantage,
-.portfolio-main {
-    background-color: var(--primary-background-color);
-}
-
 .advantage-details {
     color: #212121;
     font-weight: 700;
@@ -135,10 +110,6 @@ body {
 
 .advantage-main {
     line-height: 1.71;
-}
-
-.practices {
-    background-color: var(--primary-background-color);
 }
 
 .team {
@@ -155,6 +126,14 @@ body {
 .team-skills {
     font-size: 16px;
     line-height: 1.19;
+}
+
+.footer {
+    background-color: var(--hero-and-footer-background-color);
+}
+
+.logo-footer{
+    color: #ffffff
 }
 
 .adress {
@@ -182,11 +161,13 @@ body {
     font-size: 16px;
     line-height: 1.85;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .portfolio-filter:hover,
 .portfolio-filter:focus {
     color: var(--acent-color);
+    background-color: #000000;
 }
 
 .all {
