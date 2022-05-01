@@ -40,7 +40,8 @@ body {
 
 .nav-list,
 .call-us,
-.mail-to {
+.mail-to,
+.mail-to-portfolio {
     color: #212121;
     font-weight: 500;
     line-height: 1.14;
@@ -52,7 +53,8 @@ body {
     color: var(--acent-color);
 } 
 
-.call-us {
+.call-us,
+.mail-to-portfolio {
     color: var(--primary-text-color);
 }
 
@@ -63,7 +65,9 @@ body {
 .nav-list:hover,
 .nav-list:focus,
 .call-us:hover,
-.call-us:focus {
+.call-us:focus,
+.mail-to-portfolio:hover,
+.mail-to-portfolio:focus {
     color: var(--acent-color);
 }
 
@@ -111,7 +115,8 @@ body {
     text-align: center;
 }
 
-.advantage {
+.advantage,
+.portfolio-main {
     background-color: var(--primary-background-color);
 }
 
@@ -164,3 +169,41 @@ body {
     color: var(--acent-color);
 }
 
+.portfolio-filter {
+    color: #212121;
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    cursor: pointer;
+}
+.all {
+    color: #FFFFFF;
+    background-color: var(--acent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.portfolio-order:hover,
+.portfolio-order:focus {
+
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--primary-text-color);
+}
+
+.projects-list {
+    text-decoration: none;
+}
